@@ -21,6 +21,6 @@ bot.on('message', (msg) => {
   if (messageText.toLowerCase() === 'مرحبا') {
     bot.sendMessage(chatId, 'أهلاً وسهلاً!');
   } else {
-    bot.sendMessage(chatId, `لقد أرسلت:: ${messageText}`);
+    bot.sendMessage(chatId, `لقد أرسلت: ${messageText}`);
   }
 });
